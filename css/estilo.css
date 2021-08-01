@@ -1,0 +1,151 @@
+html{
+	font-size: 62,5%;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+@font-face	{
+	font-family: 'SourceSerifPro-BlackItalic';
+	src: url('../assets/fonts/SourceSerifPro-BlackItalic.ttf') ;
+}
+
+@font-face{
+	font-family: 'SourceSerifPro-Black';
+	src: url('../assets/fonts/SourceSerifPro-Black.ttf');
+}
+
+@font-face	{
+	font-family: 'SourceSerifPro-Light';
+	src: url('../assets/fonts/SourceSerifPro-Light.ttf');
+}
+
+/*INDEX*/
+
+.fondoHome{
+	background-image: url(../assets/img/rainbow.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+.estiloLogo{
+	color: rgb(220, 118, 51);
+	position: relative;
+	margin-left: 580px;
+	top: 110px;
+}
+
+.estiloNav{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding-top: 50px;
+	background-color: rgba(170, 183, 184, 0.6);
+}
+
+.estiloNav ul{
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+}
+
+.estiloNav li a{
+	text-decoration: none;
+	color: rgb(146, 43, 33);
+	font-style: italic; font-family: 'SourceSerifPro-Regular'; font-size: 1.5rem; font-weight: bold;
+	padding: 30px;
+}
+
+.estiloNav .dulceencuentro:hover{
+	font-style: italic; font-family: 'SourceSerifPro-BlackItalic';font-size: 1.3rem;
+	font-weight: bold;
+	transform: scale(1.3,1.3);
+}
+.estiloNav .clasicas:hover{
+	font-style: italic; font-family: 'SourceSerifPro-BlackItalic';font-size: 1.3rem;
+	font-weight: bold;
+	transform: scale(1.3,1.3);
+}
+.estiloNav .tematicas:hover{
+	font-style: italic; font-family: 'SourceSerifPro-BlackItalic';font-size: 1.3rem;
+	font-weight: bold;
+	transform: scale(1.3,1.3);
+}
+.estiloNav .productos:hover{
+	font-style: italic; font-family: 'SourceSerifPro-BlackItalic';font-size: 1.3rem;
+	font-weight: bold;
+	transform: scale(1.3,1.3);
+}
+.estiloNav .pedidos:hover{
+	font-style: italic; font-family: 'SourceSerifPro-BlackItalic';font-size: 1.3rem;
+	font-weight: bold;
+	transform: scale(1.3,1.3);
+}
+
+.fondoSeccion{
+	background-color: rgba(170, 183, 184, 0.6)
+}
+
+#carousel{
+	size: 50%;
+}
+
+.estiloNavSeccion{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(170, 183, 184, 0.6);
+}
+
+.estiloNavSeccion ul{
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+}
+
+.estiloNavSeccion li a{
+	text-decoration: none;
+	color: rgb(146, 43, 33);
+	font-style: italic; font-family: 'SourceSerifPro-Regular'; font-size: 1.5rem; font-weight: bold;
+	padding: 30px;
+}
+#activo{
+	color: rgb(146, 43, 33);
+	font-style: italic; font-family: 'SourceSerifPro-Regular'; font-size: 1.5rem; font-weight: bold;
+}
+
+.estiloNavSeccion #activo:hover{
+	font-style: italic; font-family: 'SourceSerifPro-BlackItalic';font-size: 1.3rem;
+	font-weight: bold;
+	transform: scale(1.3,1.3);
+}
+
+.estiloNavSeccion .dulceencuentro:hover{
+	font-style: italic; font-family: 'SourceSerifPro-BlackItalic';font-size: 1.3rem;
+	font-weight: bold;
+	transform: scale(1.3,1.3);
+}
+.estiloNavSeccion .clasicas:hover{
+	font-style: italic; font-family: 'SourceSerifPro-BlackItalic';font-size: 1.3rem;
+	font-weight: bold;
+	transform: scale(1.3,1.3);
+}
+.estiloNavSeccion .tematicas:hover{
+	font-style: italic; font-family: 'SourceSerifPro-BlackItalic';font-size: 1.3rem;
+	font-weight: bold;
+	transform: scale(1.3,1.3);
+}
+.estiloNavSeccion .productos:hover{
+	font-style: italic; font-family: 'SourceSerifPro-BlackItalic';font-size: 1.3rem;
+	font-weight: bold;
+	transform: scale(1.3,1.3);
+}
+.estiloNavSeccion .pedidos:hover{
+	font-style: italic; font-family: 'SourceSerifPro-BlackItalic';font-size: 1.3rem;
+	font-weight: bold;
+	transform: scale(1.3,1.3);
+}
